@@ -24,6 +24,7 @@ clearProducts();
 let products = parseProducts(json);
 return products;
 }
+
 // Запишите в переменную length значение свойства products.length
 let length = products.length;
 // Напишите цикл, в котором перебираете все products от 0 до (length - 1)
