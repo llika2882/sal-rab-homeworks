@@ -13,14 +13,15 @@ function parseProducts(json) {
 }
 
 // Напишите функцию renderProductsCards(json)
-function renderProductsCards(json) {
-    clearProducts();
-
+  
 // Аргументом функции является JSON
+function renderProductsCards(json) {
+
 // Выполните функцию clearProducts - она уже написана в коде, просто вызовите ее, аргументы не требуются
-console.log(clearProducts)
+clearProducts();
+
 // Выполните функцию parseProducts, передав в неё json - аргумент функции и запишите результат в переменную products
-let products = parseProducts(json);
+products = parseProducts(json);
 return products;
 }
 // Запишите в переменную length значение свойства products.length
@@ -32,12 +33,7 @@ for (let i = 0; i < length; i +=1) {
     }
 
 
-function parseProducts(json) {
-    let data = JSON.parse(json);
-    let products = data.products;
-    return products;
-}
-}
+
 
 
 
