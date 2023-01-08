@@ -22,8 +22,6 @@ clearProducts();
 
 // Выполните функцию parseProducts, передав в неё json - аргумент функции и запишите результат в переменную products
 let products = parseProducts(json);
-//return products;
-//}
 
 // Запишите в переменную length значение свойства products.length
 let length = products.length;
