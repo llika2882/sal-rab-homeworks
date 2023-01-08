@@ -21,7 +21,7 @@ function renderProductsCards(json) {
 clearProducts();
 
 // Выполните функцию parseProducts, передав в неё json - аргумент функции и запишите результат в переменную products
-products = parseProducts(json);
+let products = parseProducts(json);
 return products;
 }
 // Запишите в переменную length значение свойства products.length
